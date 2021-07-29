@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+body header.header {
+  background: #16161a;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body header.header img {
+  border-radius: 50%;
+  max-width: 160px;
+}
+body section.main {
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
