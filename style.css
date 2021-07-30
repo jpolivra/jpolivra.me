@@ -34,6 +34,10 @@ body header.header p.description {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+body header.header div.social {
+  display: flex;
+  justify-content: center;
+}
 body section.main {
   flex-grow: 1;
 }
