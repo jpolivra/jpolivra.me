@@ -32,9 +32,7 @@ body header.header p.description {
   text-align: center;
   font-size: 14px;
   margin-top: 20px;
-}
-body header.header div.social i.fab {
-  fill: red;
+  margin-bottom: 20px;
 }
 body section.main {
   flex-grow: 1;
