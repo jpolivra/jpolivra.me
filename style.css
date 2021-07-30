@@ -33,6 +33,9 @@ body header.header p.description {
   font-size: 14px;
   margin-top: 20px;
 }
+body header.header div.social i.fab {
+  fill: red;
+}
 body section.main {
   flex-grow: 1;
 }

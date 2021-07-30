@@ -30,6 +30,11 @@ body {
       font-size: 14px;
       margin-top: 20px;
     }
+    div.social {
+      i.fab {
+        fill: red;
+      }
+    }
   }
   section.main {
     flex-grow: 1;
