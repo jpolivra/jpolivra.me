@@ -6,6 +6,7 @@ img {
 body {
   margin: 0px;
   padding: 0px;
+  font-family: "Segoe UI", Roboto, sans-serif;
   box-sizing: border-box;
   display: flex;
   min-height: 100vh;
@@ -13,14 +14,24 @@ body {
 }
 body header.header {
   background: #16161a;
+  color: #fffffe;
   width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 16px;
+}
+body header.header h2.name {
+  font-size: 24px;
 }
 body header.header img {
   border-radius: 50%;
   max-width: 160px;
+}
+body header.header p.description {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
 }
 body section.main {
   flex-grow: 1;
