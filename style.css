@@ -32,14 +32,16 @@ body header.header p.description {
   text-align: center;
   font-size: 14px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 body header.header div.social {
   display: flex;
   justify-content: center;
+  margin-bottom: 25px;
 }
 body section.main {
   flex-grow: 1;
+  background-color: #242629;
 }
 
 /*# sourceMappingURL=style.css.map */
