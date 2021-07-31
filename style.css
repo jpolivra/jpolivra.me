@@ -54,7 +54,11 @@ body header.header div.box2 ul {
   margin-bottom: 10px;
 }
 body header.header div.box2 ul li {
+  transition: 0.3s;
   margin-bottom: 20px;
+}
+body header.header div.box2 ul li:hover {
+  transform: scale(1.1);
 }
 body header.header div.box2 ul li a {
   text-decoration: none;
@@ -71,6 +75,10 @@ body header.header div.box2 div.hire {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
+}
+body header.header div.box2 div.hire:hover {
+  transform: scale(1.1);
 }
 body header.header div.box2 div.hire a {
   width: 100%;
@@ -82,9 +90,88 @@ body header.header div.box2 div.hire a {
   color: #fffffe;
   line-height: 1.5em;
 }
-body section.main {
+body section.container {
   flex-grow: 1;
   background-color: #242629;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body section.container div.sobre {
+  background: #242629;
+  width: 100%;
+}
+body section.container div.sobre div.container {
+  max-width: 1096px;
+  margin: 0 auto;
+  padding: 48px;
+  display: flex;
+}
+body section.container div.sobre div.container div.box1 {
+  padding: 0 20px 0 0;
+}
+body section.container div.sobre div.container div.box1 div.resumeBtn {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+body section.container div.sobre div.container div.box1 div.resumeBtn a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+body section.container div.sobre div.container div.box1 div.resumeBtn a:hover {
+  transform: scale(1.1);
+}
+body section.container div.sobre div.container div.box1 div.resumeBtn a.btn1 {
+  background: #7f5af0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fffffe;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  width: 160px;
+  margin-bottom: 20px;
+  height: 25px;
+}
+body section.container div.sobre div.container div.box1 div.resumeBtn a.btn2 {
+  background: #16161a;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fffffe;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 160px;
+  height: 25px;
+}
+body section.container div.sobre div.container div.box2 {
+  min-width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body section.container div.sobre div.container h1.nomeSobre {
+  color: #fffffe;
+  font-size: 48px;
+  line-height: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+body section.container div.sobre div.container p.subtitulo {
+  font-size: 1.5rem;
+  color: #fffffe;
+  font-weight: lighter;
+}
+body section.container div.sobre div.container p.resumo {
+  font-size: 16px;
+  color: #fffffe;
+  margin-bottom: 40px;
+}
+body section.container div.sobre div.container p.resumo a {
+  text-decoration: none;
+}
+body section.container div.sobre div.container p.resumo span {
+  color: #7f5af0;
 }
 
 /*# sourceMappingURL=style.css.map */
