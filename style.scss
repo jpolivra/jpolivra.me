@@ -37,13 +37,57 @@ body {
       margin-bottom: 30px;
     }
 
-    div.social {
+    div.box1 {
+      div.social {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+      }
+    }
+    div.box2 {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        li {
+          margin-bottom: 20px;
+          a {
+            text-decoration: none;
+            color: #fffffe;
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+      }
+      width: 100%;
       display: flex;
-      justify-content: center;
-      margin-bottom: 25px;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      padding-bottom: 30px;
+      div.hire {
+        background-color: #7f5af0;
+        border-radius: 4px;
+        width: 160px;
+        height: 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          width: 100%;
+          height: 100%;
+          padding-top: 33px;
+          padding-right: 13px;
+          font-weight: bold;
+          text-decoration: none;
+          color: #fffffe;
+          line-height: 1.5em;
+        }
+      }
     }
   }
-
   section.main {
     flex-grow: 1;
     background-color: #242629;
