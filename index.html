@@ -15,12 +15,16 @@
   </head>
   <body>
     <header class="header">
-      <h2 class="name">João Pedro</h2>
+      <div class="bar">
+        <a href="#" id="hamBtn"><i class="fas fa-bars"></i></a>
+        <h2 class="name">João Pedro</h2>
+      </div>
       <div
+        id="box1"
         class="box1"
         style="
           border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-          display: flex;
+
           flex-direction: column;
           align-items: center;
           margin-bottom: 30px;
@@ -42,7 +46,7 @@
                 border-radius: 50%;
                 padding: 5px 10px;
               "
-              ><i class="fab fa-twitter"></i></span
+              ><i class="fab fa-linkedin"></i></span
           ></a>
           <a class="bgSocial" href="#"
             ><span
@@ -68,7 +72,7 @@
                 padding: 5px 10px;
                 margin-left: 15px;
               "
-              ><i class="fab fa-linkedin"></i></span
+              ><i class="fab fa-youtube"></i></span
           ></a>
           <a class="bgSocial" href="#"
             ><span
@@ -94,11 +98,11 @@
                 padding: 5px 10px;
                 margin-left: 15px;
               "
-              ><i class="fab fa-youtube"></i></span
+              ><i class="fab fa-free-code-camp"></i></span
           ></a>
         </div>
       </div>
-      <div class="box2">
+      <div class="box2" id="box2">
         <ul>
           <li>
             <a href="#" style="color: #7f5af0"
@@ -195,4 +199,15 @@
     src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
     data-auto-replace-svg
   ></script>
+  <script>
+    const hamBtn = document.querySelector("#hamBtn");
+    const box1 = document.querySelector("#box1");
+    const box2 = document.querySelector("#box2");
+    console.log(box1);
+    function ativarHamBtn() {
+      box1.classList.toggle("box-ativa");
+      box2.classList.toggle("box-ativa");
+    }
+    hamBtn.addEventListener("click", ativarHamBtn);
+  </script>
 </html>
