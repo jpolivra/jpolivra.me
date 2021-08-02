@@ -174,6 +174,7 @@ body section.container div.sobre div.container div.box1 div.resumeBtn a.btn1 {
   width: 160px;
   margin-bottom: 20px;
   height: 25px;
+  padding-top: 13px;
 }
 
 body section.container div.sobre div.container div.box1 div.resumeBtn a.btn2 {
@@ -185,6 +186,7 @@ body section.container div.sobre div.container div.box1 div.resumeBtn a.btn2 {
   border-radius: 4px;
   width: 160px;
   height: 25px;
+  padding-top: 13px;
 }
 
 body section.container div.sobre div.container div.box2 {
