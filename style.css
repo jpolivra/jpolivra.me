@@ -236,6 +236,7 @@ body section.container div.blogbg {
   background: #202025;
 }
 body section.container div.blogbg div.blogmain {
+  margin: 0 auto;
   background: #202025;
   padding: 48px;
   max-width: 1096px;
