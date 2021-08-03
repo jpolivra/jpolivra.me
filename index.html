@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="bar">
         <a href="#" id="hamBtn"><i class="fas fa-bars"></i></a>
         <h2 class="name">João Pedro</h2>
@@ -202,6 +202,28 @@
           </div>
         </div>
       </div>
+      <div class="blogbg">
+        <div class="blogmain">
+          <h2 class="blogmaintitle">Últimas Postagens</h2>
+          <div class="postlist">
+            <div class="postcard">
+              <div class="card-header">
+                <img src="./img/bloglist/testimg.jpg" alt="" />
+              </div>
+              <div class="card-body">
+                <h4 class="cardheading">Sobre trabalhar remotamente</h4>
+                <p class="carddesc">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient...
+                </p>
+                <a href="#" class="external">Ler mais</a>
+              </div>
+              <div class="card-footer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
   <script
@@ -212,11 +234,16 @@
     const hamBtn = document.querySelector("#hamBtn");
     const box1 = document.querySelector("#box1");
     const box2 = document.querySelector("#box2");
-    console.log(box1);
     function ativarHamBtn() {
       box1.classList.toggle("box-ativa");
       box2.classList.toggle("box-ativa");
     }
     hamBtn.addEventListener("click", ativarHamBtn);
+
+    const header = document.querySelector("#header");
+    const comp = document.querySelector("#comp");
+    const headerWid = header.offsetWidth;
+    // comp.style.width = `${headerWid}px`;
+    console.log(comp);
   </script>
 </html>

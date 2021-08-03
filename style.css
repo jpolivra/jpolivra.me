@@ -21,6 +21,11 @@ body header.header {
   flex-direction: column;
   align-items: center;
   padding: 16px;
+  overflow-y: auto;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 body header.header div.bar {
   display: flex;
@@ -107,6 +112,7 @@ body header.header div.box2 div.hire {
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+  margin-bottom: 20px;
 }
 
 body header.header div.box2 div.hire:hover {
@@ -224,6 +230,30 @@ body section.container div.sobre div.container p.resumo span {
   color: #7f5af0;
 }
 
+body section.container div.blogbg {
+  width: 100%;
+  max-width: 100%;
+  background: #202025;
+}
+body section.container div.blogbg div.blogmain {
+  background: #202025;
+  padding: 48px;
+  max-width: 1096px;
+}
+body section.container div.blogbg div.blogmain h2.blogmaintitle {
+  font-size: 36px;
+  line-height: 1em;
+  margin: 0px;
+  color: #fffffe;
+  border-left: 5px solid #fffffe;
+  padding-left: 15px;
+}
+
+@media (min-width: 1200px) {
+  body section.container {
+    margin-left: 332px;
+  }
+}
 @media (max-width: 1200px) {
   body {
     flex-direction: column;
@@ -232,6 +262,7 @@ body section.container div.sobre div.container p.resumo span {
     width: 100vw;
     max-width: 100%;
     padding: 0px;
+    height: auto;
   }
   body header.header div.bar a {
     display: block;
@@ -246,6 +277,9 @@ body header.header div.box2 {
   body header.header div.box1 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  body section.container {
+    margin-top: 71px;
   }
 }
 @media (max-width: 768px) {
