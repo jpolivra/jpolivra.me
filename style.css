@@ -245,8 +245,39 @@ body section.container div.blogbg div.blogmain div.postlist {
   display: flex;
 }
 body section.container div.blogbg div.blogmain div.postlist div.postcard {
-  background: #7f5af0;
+  background: #16161a;
   margin: 0px 12px 0px 12px;
+}
+body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body {
+  padding: 16px;
+}
+body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body a {
+  text-decoration: underline;
+  text-decoration-color: rgba(41, 41, 41, 0.3);
+  font-weight: bold;
+  font-size: 18px;
+}
+body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body h4 {
+  margin: 0px 0px 10px 0px;
+  color: #fffffe;
+}
+body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body h4:hover {
+  color: #7f5af0;
+}
+body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body p {
+  margin: 0px 0px 10px 0px;
+  font-size: 16px;
+  color: #fffffe;
+}
+body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body a.external {
+  color: #7f5af0;
+}
+body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body a.external {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body a.external:hover {
+  color: #fffffe;
 }
 body section.container div.blogbg div.blogmain h2.blogmaintitle {
   font-size: 36px;
@@ -258,6 +289,23 @@ body section.container div.blogbg div.blogmain h2.blogmaintitle {
 }
 body section.container div.blogbg div.blogmain h2.blogmaintitle {
   margin-bottom: 40px;
+}
+body section.container div.blogbg div.blogmain div.btnFooter {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  height: auto;
+  margin-bottom: 20px;
+}
+body section.container div.blogbg div.blogmain div.btnFooter a.blogBtn {
+  background: #7f5af0;
+  text-decoration: none;
+  color: #fffffe;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 
 @media (min-width: 1200px) {
