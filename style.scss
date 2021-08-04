@@ -238,6 +238,13 @@ body section.container div.blogbg {
     background: #202025;
     padding: 48px;
     max-width: 1096px;
+    div.postlist {
+      display: flex;
+      div.postcard {
+        background: #7f5af0;
+        margin: 0px 12px 0px 12px;
+      }
+    }
     h2.blogmaintitle {
       font-size: 36px;
       line-height: 1em;
@@ -245,6 +252,9 @@ body section.container div.blogbg {
       color: #fffffe;
       border-left: 5px solid #fffffe;
       padding-left: 15px;
+    }
+    h2.blogmaintitle {
+      margin-bottom: 40px;
     }
   }
 }
@@ -310,6 +320,20 @@ body section.container div.blogbg {
             img {
               max-width: 300px;
               margin: 0 auto;
+            }
+          }
+        }
+      }
+      div.blogbg {
+        div.blogmain {
+          padding: 24px;
+          h2.blogmaintitle {
+            margin-bottom: 0px;
+          }
+          div.postlist {
+            flex-direction: column;
+            div.postcard {
+              margin: 30px 0px 0px 0px;
             }
           }
         }
