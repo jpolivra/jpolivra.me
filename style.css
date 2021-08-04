@@ -282,6 +282,12 @@ body header.header div.box2 {
   body section.container {
     margin-top: 60px;
   }
+  body section.ativo {
+    margin-top: 0px;
+  }
+  body header.ativo {
+    position: static;
+  }
 }
 @media (max-width: 768px) {
   body section.container div.sobre div.container {

@@ -285,6 +285,12 @@ body section.container div.blogbg {
     section.container {
       margin-top: 60px;
     }
+    section.ativo {
+      margin-top: 0px;
+    }
+    header.ativo {
+      position: static;
+    }
   }
 }
 

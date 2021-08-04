@@ -176,7 +176,7 @@
         </div>
       </div>
     </header>
-    <section class="container">
+    <section class="container" id="sectionContainer">
       <div class="sobre">
         <div class="container">
           <div class="box1">
@@ -264,16 +264,15 @@
     const hamBtn = document.querySelector("#hamBtn");
     const box1 = document.querySelector("#box1");
     const box2 = document.querySelector("#box2");
+    const header = document.querySelector("#header");
+    const containerSec = document.querySelectorAll("#sectionContainer");
+    console.log(header);
     function ativarHamBtn() {
       box1.classList.toggle("box-ativa");
       box2.classList.toggle("box-ativa");
+      header.classList.toggle("ativo");
+      sectionContainer.classList.toggle("ativo");
     }
     hamBtn.addEventListener("click", ativarHamBtn);
-
-    const header = document.querySelector("#header");
-    const comp = document.querySelector("#comp");
-    const headerWid = header.offsetWidth;
-    // comp.style.width = `${headerWid}px`;
-    console.log(comp);
   </script>
 </html>
