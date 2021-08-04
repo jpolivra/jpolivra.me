@@ -309,6 +309,23 @@ body section.container div.blogbg {
   }
 }
 
+// Porfolio Section
+
+body {
+  section.container {
+    div.portfolioContainer {
+      width: 100%;
+      max-width: 100%;
+      div.portfolioBox {
+        padding: 48px;
+        max-width: 1096px;
+        margin: 0 auto;
+        background: #7f5af0;
+      }
+    }
+  }
+}
+
 @media (min-width: 1200px) {
   body {
     section.container {

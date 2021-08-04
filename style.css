@@ -307,6 +307,17 @@ body section.container div.blogbg div.blogmain div.btnFooter a.blogBtn {
   border-radius: 4px;
 }
 
+body section.container div.portfolioContainer {
+  width: 100%;
+  max-width: 100%;
+}
+body section.container div.portfolioContainer div.portfolioBox {
+  padding: 48px;
+  max-width: 1096px;
+  margin: 0 auto;
+  background: #7f5af0;
+}
+
 @media (min-width: 1200px) {
   body section.container {
     margin-left: 332px;
