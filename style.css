@@ -318,6 +318,11 @@ body section.container div.portfolioContainer div.portfolioBox {
   max-width: 1096px;
   margin: 0 auto;
   background: #242629;
+}
+body section.container div.portfolioContainer div.portfolioBox div.isolarBtn {
+  text-align: center;
+}
+body section.container div.portfolioContainer div.portfolioBox div.isolarTitle {
   text-align: center;
 }
 body section.container div.portfolioContainer div.portfolioBox h2.projectsTitle {

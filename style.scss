@@ -322,6 +322,12 @@ body {
         max-width: 1096px;
         margin: 0 auto;
         background: #242629;
+        div.isolarBtn {
+          text-align: center;
+        }
+        div.isolarTitle {
+          text-align: center;
+        }
         h2.projectsTitle {
           max-width: 200px;
           color: #fffffe;
@@ -332,7 +338,6 @@ body {
           margin: 0 auto;
           margin-bottom: 30px;
         }
-        text-align: center;
         a.portfolioBtn {
           text-decoration: none;
           transition: 0.3s;
