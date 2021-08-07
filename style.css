@@ -358,6 +358,14 @@ body section.container div.contactBg {
   width: 100%;
   max-width: 100%;
 }
+body section.container div.contactBg .formContainer {
+  max-width: 1096px;
+  margin: 0 auto;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media (max-width: 780px) {
   body section.container div.portfolioContainer div.portfolioBox {

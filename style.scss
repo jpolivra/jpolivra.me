@@ -368,6 +368,14 @@ body {
       background: #202025;
       width: 100%;
       max-width: 100%;
+      .formContainer {
+        max-width: 1096px;
+        margin: 0 auto;
+        padding: 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     }
   }
 }
