@@ -360,6 +360,18 @@ body {
   }
 }
 
+// contact-form
+
+body {
+  section.container {
+    div.contactBg {
+      background: #202025;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
 @media (max-width: 780px) {
   body {
     section.container {

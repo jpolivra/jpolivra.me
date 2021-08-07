@@ -353,6 +353,12 @@ body section.container div.portfolioContainer div.portfolioBox a.portfolioBtn:ho
   transform: scale(1.1);
 }
 
+body section.container div.contactBg {
+  background: #202025;
+  width: 100%;
+  max-width: 100%;
+}
+
 @media (max-width: 780px) {
   body section.container div.portfolioContainer div.portfolioBox {
     padding: 12px;
