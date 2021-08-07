@@ -413,10 +413,30 @@
       <div class="contactBg" id="conttSection">
         <div class="formContainer">
           <h2 class="contatoTitle">CONTATO</h2>
-          <form>
-            <input type="text" id="username" placeholder="Nome completo" />
-            <input type="email" id="email" placeholder="Email" />
-            <input type="text" id="assunto" placeholder="Assunto" />
+          <form
+            action="https://formsubmit.co/thxjao.contactmail@gmail.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              id="username"
+              placeholder="Nome completo"
+              name="name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              name="email"
+              required
+            />
+            <input
+              type="text"
+              id="assunto"
+              placeholder="Assunto"
+              name="_subject"
+            />
             <textarea
               id="mensagem"
               cols="30"
