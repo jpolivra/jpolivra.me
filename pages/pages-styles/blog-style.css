@@ -637,4 +637,10 @@ body
   }
 }
 
+@media (max-width: 500px) {
+  body section.container div.blogbg div.blogmain {
+    padding: 48px 24px 48px 24px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
