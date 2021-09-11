@@ -83,6 +83,7 @@ body header.header p.description {
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 body header.header div.box1 {
@@ -272,35 +273,90 @@ body section.container div.blogbg div.blogmain div.postlist div.postcard {
   background: #16161a;
   margin: 0px 12px 0px 12px;
 }
-body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body {
+body
+  section.container
+  div.blogbg
+  div.blogmain
+  div.postlist
+  div.postcard
+  div.card-body {
   padding: 16px;
 }
-body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body a {
+body
+  section.container
+  div.blogbg
+  div.blogmain
+  div.postlist
+  div.postcard
+  div.card-body
+  a {
   text-decoration: underline;
   text-decoration-color: rgba(41, 41, 41, 0.3);
   font-weight: bold;
   font-size: 18px;
 }
-body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body h4 {
+body
+  section.container
+  div.blogbg
+  div.blogmain
+  div.postlist
+  div.postcard
+  div.card-body
+  h4 {
   margin: 0px 0px 10px 0px;
   color: #fffffe;
 }
-body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body h4:hover {
+body
+  section.container
+  div.blogbg
+  div.blogmain
+  div.postlist
+  div.postcard
+  div.card-body
+  h4:hover {
   color: #7f5af0;
 }
-body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body p {
+body
+  section.container
+  div.blogbg
+  div.blogmain
+  div.postlist
+  div.postcard
+  div.card-body
+  p {
   margin: 0px 0px 10px 0px;
   font-size: 16px;
   color: #fffffe;
 }
-body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body a.external {
+body
+  section.container
+  div.blogbg
+  div.blogmain
+  div.postlist
+  div.postcard
+  div.card-body
+  a.external {
   color: #7f5af0;
 }
-body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body a.external {
+body
+  section.container
+  div.blogbg
+  div.blogmain
+  div.postlist
+  div.postcard
+  div.card-body
+  a.external {
   text-decoration: none;
   margin-bottom: 20px;
 }
-body section.container div.blogbg div.blogmain div.postlist div.postcard div.card-body a.external:hover {
+body
+  section.container
+  div.blogbg
+  div.blogmain
+  div.postlist
+  div.postcard
+  div.card-body
+  a.external:hover {
   color: #fffffe;
 }
 body section.container div.blogbg div.blogmain h2.blogmaintitle {
@@ -347,7 +403,11 @@ body section.container div.portfolioContainer div.portfolioBox div.isolarBtn {
 body section.container div.portfolioContainer div.portfolioBox div.isolarTitle {
   text-align: center;
 }
-body section.container div.portfolioContainer div.portfolioBox h2.projectsTitle {
+body
+  section.container
+  div.portfolioContainer
+  div.portfolioBox
+  h2.projectsTitle {
   max-width: 200px;
   color: #fffffe;
   font-size: 32px;
@@ -371,7 +431,11 @@ body section.container div.portfolioContainer div.portfolioBox a.portfolioBtn {
   height: 25px;
   padding-top: 13px;
 }
-body section.container div.portfolioContainer div.portfolioBox a.portfolioBtn:hover {
+body
+  section.container
+  div.portfolioContainer
+  div.portfolioBox
+  a.portfolioBtn:hover {
   transform: scale(1.1);
 }
 
@@ -632,7 +696,7 @@ body section.container div.contactBg .formContainer .submit:hover {
     display: block;
   }
   body header.header div.box1,
-body header.header div.box2 {
+  body header.header div.box2 {
     display: none;
   }
   body header.header div.box-ativa {
