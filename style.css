@@ -265,7 +265,14 @@ body section.container div.blogbg div.blogmain {
   background: #202025;
   padding: 48px;
   max-width: 1096px;
+  display: flex;
+  justify-content: space-between;
 }
+
+img.blogmain-image {
+  max-width: 400px;
+}
+
 body section.container div.blogbg div.blogmain div.postlist {
   display: flex;
 }
