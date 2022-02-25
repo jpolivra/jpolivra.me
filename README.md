@@ -1,2 +1,2 @@
-# Site pessoal legado (sendo reconstruido utilizando React)
-Meu site pessoal, pelo qual sempre que possível escrevo alguns posts sobre assuntos que estou estudando no momento. 
+# Under refactoring
+Yeah it used to be the my first personal website build, now i'm trying to recreate this from zero using react, typescript, yeah u know, some new technologies.
