@@ -1,3 +1,1 @@
-# Personal Website 2.0 (Goal)
-
-The first version of this website was built without any frameworks and libraries. Since `master` isn't a convention anymore I'm building a new application to store my portfolio and blog posts public to anyone who want to read the weird things I write, but this time using the `main` branch. The main frameworks and libraries that I would like to use here is basically NextJS since it will be a simple page that I want to load as fast and possible, and of course Tailwind to customize everything (haven't used it before, let's take a look on how it looks like to built layouts from "zero").
+# [jpolivra.me](https://jpolivra.me/)
