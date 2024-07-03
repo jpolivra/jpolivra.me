@@ -6,4 +6,4 @@ export const ThemeContext = createContext<{
   handleTheme: () => void;
 }>({ theme: "light", handleTheme: () => {} });
 
-export const useThemeContext = () => useContext(ThemeContext);
+export const useTheme = () => useContext(ThemeContext);

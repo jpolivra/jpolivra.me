@@ -1,8 +1,22 @@
-import { createRoot } from "react-dom/client";
-import App from "./App";
+import ReactDOM from "react-dom/client";
+import Root from "./Root";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Blog } from "./screens/Blog";
+import ThemeProvider from "@providers/ThemeProvider";
 
-const container = document.getElementById("app");
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
+]);
 
-const root = createRoot(container!);
-
-root.render(<App />);
+ReactDOM.createRoot(document.getElementById("app")!).render(
+  <ThemeProvider>
+    <RouterProvider router={router} />
+  </ThemeProvider>
+);
