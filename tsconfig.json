@@ -23,10 +23,9 @@
     // React
     "jsx": "preserve",
     "paths": {
+      "@assets/*": ["./src/assets/*"],
       "@components/*": ["./src/components/*"],
-      "@contexts/*": ["./src/contexts/*"],
-      "@models/*": ["./src/models/*"],
-      "@providers/*": ["./src/providers/*"]
+      "@screens/*": ["./src/screens/*"]
     }
   },
   "include": ["src"]

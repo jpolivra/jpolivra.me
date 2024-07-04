@@ -23,9 +23,5 @@ export function ThemeSwitch() {
     }
   }, []);
 
-  return (
-    <button onClick={handleTheme} className="bg-white dark:bg-black">
-      Theme {theme}
-    </button>
-  );
+  return <button onClick={handleTheme}>Theme {theme}</button>;
 }
