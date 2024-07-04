@@ -1,4 +1,3 @@
 export function Footer() {
-    return <header>FOOTER</header>;
+  return <header>FOOTER</header>;
 }
-  

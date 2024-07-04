@@ -1,7 +1,31 @@
-import { useTheme } from "@contexts/ThemeContext";
+import React from "react";
 
 export function ThemeSwitch() {
-  const { theme, handleTheme } = useTheme();
+  const [theme, setTheme] = React.useState(
+    localStorage.getItem("theme") ?? "light"
+  );
 
-  return <button onClick={handleTheme}>Theme {theme}</button>;
+  const handleTheme = () => {
+    if (theme === "dark") {
+      setTheme("light");
+      localStorage.setItem("theme", "light");
+      document.documentElement.classList.remove("dark");
+    } else {
+      setTheme("dark");
+      localStorage.setItem("theme", "dark");
+      document.documentElement.classList.add("dark");
+    }
+  };
+
+  React.useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    }
+  }, []);
+
+  return (
+    <button onClick={handleTheme} className="bg-white dark:bg-black">
+      Theme {theme}
+    </button>
+  );
 }
