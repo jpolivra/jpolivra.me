@@ -1,3 +1,3 @@
 export function Footer() {
-  return <header>FOOTER</header>;
+  return <header className="text-sm text-gray-500">Copyright </header>;
 }

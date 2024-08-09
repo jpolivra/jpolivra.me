@@ -1,4 +1,5 @@
 import React from "react";
+import { LightModeIcon, DarkModeIcon } from "@assets/icons";
 
 export function ThemeSwitch() {
   const [theme, setTheme] = React.useState(
@@ -23,5 +24,13 @@ export function ThemeSwitch() {
     }
   }, []);
 
-  return <button onClick={handleTheme}>Theme {theme}</button>;
+  return (
+    <button onClick={handleTheme}>
+      {theme === "light" ? (
+        <LightModeIcon fill="#374151" />
+      ) : (
+        <DarkModeIcon fill="#94a3b8" />
+      )}
+    </button>
+  );
 }
