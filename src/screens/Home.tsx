@@ -1,4 +1,5 @@
 import profile from "@assets/profile.jpeg";
+import { SimpleIconLink } from "@components/SimpleIconLink";
 import { TagLink } from "@components/TagLink";
 
 export function Home() {
@@ -25,7 +26,7 @@ export function Home() {
             url="https://www.syngentadigital.ag/"
             iconUrl="https://www.syngentadigital.ag/wp-content/themes/syngentaldigital/app/images/favicon.png?v=2"
           />
-          {`. Currently, I've been spenting my time learning about
+          {`. Currently, I've been spenting my time learning about minecraft modding and
           computer graphics specifically WebGL, you can find some stuff I make`}
           here.
         </p>
@@ -37,8 +38,18 @@ export function Home() {
             about. Sometimes, I also do some live coding streams on YouTube.
           </p>
           <p>Find me on</p>
-          <span>Github</span>
-          <span>YouTube</span>
+          <p className="flex gap-2">
+            <SimpleIconLink
+              icon="i-simple-icons-github"
+              title="GitHub"
+              url="https://www.github.com/@jpolivra"
+            />
+            <SimpleIconLink
+              icon="i-simple-icons-youtube"
+              title="YouTube"
+              url="https://www.youtube.com/@jpolivra"
+            />
+          </p>
         </aside>
         <div className="basis-1/2 p-1 rounded-lg">
           <img
