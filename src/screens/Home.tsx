@@ -42,12 +42,12 @@ export function Home() {
             <SimpleIconLink
               icon="i-simple-icons-github"
               title="GitHub"
-              url="https://www.github.com/@jpolivra"
+              url="https://www.github.com/jpolivra"
             />
             <SimpleIconLink
               icon="i-simple-icons-youtube"
               title="YouTube"
-              url="https://www.youtube.com/@jpolivra"
+              url="https://www.youtube.com/@joaooliveiradev"
             />
           </p>
         </aside>
