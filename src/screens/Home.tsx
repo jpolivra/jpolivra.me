@@ -26,8 +26,8 @@ export function Home() {
             url="https://www.syngentadigital.ag/"
             iconUrl="https://www.syngentadigital.ag/wp-content/themes/syngentaldigital/app/images/favicon.png?v=2"
           />
-          {`. Currently, I've been spenting my time learning about minecraft modding and
-          computer graphics specifically WebGL, you can find some stuff I make here.`}
+          {`. Currently, I've been spenting my time learning about RoR and
+          game development specifically on unreal engine, you can find some stuff I make here.`}
         </p>
       </article>
       <article className="max-w-[650px] m-auto flex flex-col-reverse gap-5 md:flex-row">
